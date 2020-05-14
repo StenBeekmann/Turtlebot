@@ -25,8 +25,7 @@ th_car  = (s_right-s_left)/B_wheel; % angular position wrt normal
 i = 1 
  ds = zeros(1,length(t));
  dth = zeros(1,length(t));
- ds(1)=0;
- dth(1)=0;
+ 
 while i < length(t)+1
     if i == 1
          ds(1,1) = 0;
