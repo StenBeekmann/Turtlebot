@@ -27,7 +27,7 @@ i = 1
  dth = zeros(1,length(t));
  ds(1)=0;
  dth(1)=0;
-while i < length(t)+1
+while i < length(t)
     if i == 1
          ds(1,1) = 0;
          dth(1,1) = 0;
