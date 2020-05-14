@@ -30,13 +30,13 @@ while i < length(t)+1
          ds(1,1) = 0;
          dth(1,1) = 0;
     else 
-    ds(1,i) = (s_car(i)-s_car(i-1))/(t(i)-t(i-1));
+    ds(1,i+1git) = (s_car(i)-s_car(i-1))/(t(i)-t(i-1));
     dth(1,i) = (th_car(i)-th_car(i-1))/(t(i)-t(i-1));
     end
 i=i+1;
 end
 sdot = ds;
 thdot = dth;
-qsd
+
 end
 
