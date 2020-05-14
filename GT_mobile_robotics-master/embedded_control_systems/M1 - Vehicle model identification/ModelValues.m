@@ -37,6 +37,6 @@ i=i+1;
 end
 sdot = ds;
 thdot = dth;
-
+qsd
 end
 
